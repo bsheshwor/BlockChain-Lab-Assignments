@@ -1,0 +1,5 @@
+ps -fA | grep python
+kill id
+
+sudo lsof -i :5000
+kill -9 id
